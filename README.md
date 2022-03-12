@@ -2,14 +2,14 @@
 
 ## Sett opp prosjektet lokalt
 
-npm install (husk å endre navn på pakken)
+npm install (husk å endre navn på pakken)  
 
 ## Sette opp git og publiser til GitHub
 
-git init  
-(lag initial commit)  
-git remote add origin https://brukernavn@github.com/brukernavn/reponavn.git  
-(lag repo først på github direkte, eller publiser via vs code. remote må da fjernes og legges til den over med git remote rm origin)  
+git remote rm origin (for å fjerne template-repoen som origin)  
+lag initial commit  
+git remote add origin https://brukernavn@github.com/brukernavn/reponavn.git   
+(lag ny repo først direkte på github)  
 
 ## Publiser til Netlify
 
